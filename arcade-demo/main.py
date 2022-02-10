@@ -90,7 +90,7 @@ class GameView(arcade.View):
         for i in range(5):
 
             # Create the coin instance
-            coin = arcade.Sprite("neumatico2.jpg", SPRITE_SCALING / 3)
+            coin = arcade.Sprite("neumatico4.jpg", SPRITE_SCALING / 3)
 
             # Position the coin
             coin.center_x = random.randrange(WIDTH)
